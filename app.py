@@ -9,17 +9,17 @@ english_words = set(english_dict.keys())
 # english_words = set(words.words())
 
 letters = None
-_, col1, _ = st.sidebar.beta_columns(3)
+_, col1, _ = st.sidebar.columns(3)
 l1 = col1.text_input('Letter 1')
-col2, _, col3 = st.sidebar.beta_columns(3)
+col2, _, col3 = st.sidebar.columns(3)
 l2 = col2.text_input('Letter 2')
 l3 = col3.text_input('Letter 3')
-_, col4, _ = st.sidebar.beta_columns(3)
+_, col4, _ = st.sidebar.columns(3)
 cl = col4.text_input('Center Letter')
-col5, _, col6 = st.sidebar.beta_columns(3)
+col5, _, col6 = st.sidebar.columns(3)
 l4 = col5.text_input('Letter 4')
 l5 = col6.text_input('Letter 5')
-_, col7, _ = st.sidebar.beta_columns(3)
+_, col7, _ = st.sidebar.columns(3)
 l6 = col7.text_input('Letter 6')
 m = st.markdown("""
 <style>
