@@ -1,5 +1,5 @@
 import streamlit as st
-from nltk.corpus import words
+# from nltk.corpus import words
 import itertools
 import time
 import pandas as pd
