@@ -4,6 +4,9 @@ import itertools
 import time
 import pandas as pd
 
+st.header("Hey there, spelling :bee:")
+st.subheader("... if you're feeling stuck with today's NYT Spelling Bee puzzle, enter your letters into the spaces on the left and we will help you pick up some momentum so that you can buzz to the finish line!")
+
 english_dict = pd.read_json('https://raw.githubusercontent.com/matthewreagan/WebstersEnglishDictionary/master/dictionary.json', orient="index").to_dict(orient="index")
 english_words = set(english_dict.keys())
 # english_words = set(words.words())
